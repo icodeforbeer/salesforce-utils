@@ -1,4 +1,4 @@
-public class ServiceBusClientProvider {
+public class AzureServiceBusClientProvider {
     
     string namespaceUri, sasKeyName, sasKey;
    
