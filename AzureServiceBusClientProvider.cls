@@ -2,7 +2,7 @@ public class AzureServiceBusClientProvider {
     
     string namespaceUri, sasKeyName, sasKey;
    
-    public ServiceBusClientProvider(string namespace, string policyName, string key)
+    public AzureServiceBusClientProvider(string namespace, string policyName, string key)
     {
         this.namespaceUri = 'https://' + namespace + '.servicebus.windows.net';
         this.sasKeyName = policyName;
